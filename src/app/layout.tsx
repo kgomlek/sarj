@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EV Router - EV Route Planning",
-  description: "Mobile-First Progressive Web App for EV Route Planning",
+  title: "EV Router - EV Rota Planlama",
+  description: "EV Rota Planlama için Mobil Öncelikli Aşamalı Web Uygulaması",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="tr" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
